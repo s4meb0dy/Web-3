@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using Lib;
 
-namespace ConsoleApp2
+namespace Queue
 {
     class Program
     {

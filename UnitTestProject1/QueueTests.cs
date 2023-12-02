@@ -5,7 +5,7 @@ using Lib;
 namespace Queue.Tests
 {
     [TestClass]
-    public class UnitTest1
+    public class QueueTests
     {
         [TestMethod]
         public void TestMethod1()
