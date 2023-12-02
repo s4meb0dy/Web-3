@@ -3,11 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.34112.143
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp2", "ConsoleApp2\ConsoleApp2.csproj", "{70DCFC4C-5811-45C4-8809-7D09785D969D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Queue", "ConsoleApp2\Queue.csproj", "{70DCFC4C-5811-45C4-8809-7D09785D969D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassLibrary1", "ClassLibrary1\ClassLibrary1.csproj", "{F12AB679-9378-4A40-A9A5-A4F2859E3437}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Library", "ClassLibrary1\Library.csproj", "{F12AB679-9378-4A40-A9A5-A4F2859E3437}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTestProject1", "UnitTestProject1\UnitTestProject1.csproj", "{33FF1633-4AFC-4852-8720-885424BB720E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QueueTests", "UnitTestProject1\QueueTests.csproj", "{33FF1633-4AFC-4852-8720-885424BB720E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
