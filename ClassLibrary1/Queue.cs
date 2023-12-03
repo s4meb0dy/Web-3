@@ -91,6 +91,8 @@ namespace Lib
             ClearedEvent?.Invoke();
         }
 
+        public int Count { get { return count; } }
+
         public bool Contains(T data)
         {
             Node<T> current = first;
