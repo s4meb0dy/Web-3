@@ -65,7 +65,7 @@ namespace Queue.Tests
         {
             MyQueue<int> queue = new MyQueue<int>();
 
-            int result = queue.Peek(); // This should throw an exception
+            int result = queue.Peek();
         }
 
         [TestMethod]

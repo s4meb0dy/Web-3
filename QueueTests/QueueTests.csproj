@@ -58,7 +58,7 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\ClassLibrary1\Library.csproj">
+    <ProjectReference Include="..\Library\Library.csproj">
       <Project>{f12ab679-9378-4a40-a9a5-a4f2859e3437}</Project>
       <Name>Library</Name>
     </ProjectReference>
