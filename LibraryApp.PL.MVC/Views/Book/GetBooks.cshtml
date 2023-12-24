@@ -1,0 +1,57 @@
+﻿@using LibraryApp.BLL.DTOs
+@using LibraryApp.DAL.Entities
+
+@model IEnumerable<Book>
+
+@{
+    ViewData["Title"] = "Book";
+}
+
+<style>
+    td, th {
+        padding: 2px 10px;
+        text-align: center;
+    }
+</style>
+
+<div class="text-center">
+    <h1>Books</h1>
+    <table>
+        <thead>
+            <tr>
+                <th>Id</th>
+                <th>Title</th>
+                <th>Author</th>
+                <th>Year</th>
+                <th>Available</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var book in @Model)
+            {
+                <tr>
+                    <td>
+                        @Html.DisplayFor(modelItem => book.Id)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => book.Title)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => book.Author)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => book.Year)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => book.IsAvailable)
+                    </td>
+                    <td>
+                        @Html.ActionLink("Remove", "DeleteBook", new {id = book.Id})
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+    <br />
+    @Html.ActionLink("Add book", "AddBook")
+</div>

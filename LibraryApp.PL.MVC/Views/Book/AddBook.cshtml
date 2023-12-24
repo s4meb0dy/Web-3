@@ -1,0 +1,29 @@
+﻿<form method="post" action="AddBook">
+    <h3>@ViewBag.Error</h3>
+    <table>
+        <tr>
+            <td class="field-name">Title:</td>
+            <td>
+                <input type="text" name="title" />
+            </td>
+        </tr>
+        <tr>
+            <td class="field-name">Author:</td>
+            <td>
+                <input type="text" name="author" />
+            </td>
+        </tr>
+        <tr>
+            <td class="field-name">Year:</td>
+            <td>
+                <input type="text" name="year" />
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2">
+                <button type="submit">Add</button>
+            </td>
+        </tr>
+    </table>
+</form>
+@Html.ActionLink("Back", "GetBooks")

@@ -1,0 +1,49 @@
+﻿@using LibraryApp.BLL.DTOs
+@using LibraryApp.DAL.Entities
+
+@model IEnumerable<Reader>
+
+@{
+    ViewData["Title"] = "Reader";
+}
+
+<style>
+    td, th {
+        padding: 2px 10px;
+        text-align: center;
+    }
+</style>
+
+<div class="text-center">
+    <h1>Readers</h1>
+    <table>
+        <thead>
+            <tr>
+                <th>Id</th>
+                <th>Full name</th>
+                <th>Address</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var reader in @Model)
+            {
+                <tr>
+                    <td>
+                        @Html.DisplayFor(modelItem => reader.Id)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => reader.FullName)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => reader.Address)
+                    </td>
+                    <td>
+                        @Html.ActionLink("Remove", "DeleteReader", new {id = reader.Id})
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+    <br />
+    @Html.ActionLink("Add reader", "AddReader")
+</div>

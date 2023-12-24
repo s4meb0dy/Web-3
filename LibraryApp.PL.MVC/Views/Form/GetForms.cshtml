@@ -1,0 +1,61 @@
+﻿@using LibraryApp.BLL.DTOs
+@using LibraryApp.DAL.Entities
+
+@model IEnumerable<Form>
+
+@{
+    ViewData["Title"] = "Form";
+}
+
+<style>
+    td, th {
+        padding: 2px 10px;
+        text-align: center;
+    }
+</style>
+
+<div class="text-center">
+    <h1>Forms</h1>
+    <table>
+        <thead>
+            <tr>
+                <th>Id</th>
+                <th>Reader ID</th>
+                <th>Reader Name</th>
+                <th>Book ID</th>
+                <th>Book Title</th>
+                <th>Borrow Date</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var form in @Model)
+            {
+                <tr>
+                    <td>
+                        @Html.DisplayFor(modelItem => form.Id)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => form.ReaderId)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => form.Reader.FullName)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => form.BookId)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => form.Book.Title)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => form.BorrowDate)
+                    </td>
+                    <td>
+                        @Html.ActionLink("Return", "DeleteForm", new {id = form.Id})
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+    <br />
+    @Html.ActionLink("Borrow!", "AddForm")
+</div>

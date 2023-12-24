@@ -1,0 +1,23 @@
+﻿<form method="post" action="AddReader">
+    <h3>@ViewBag.Error</h3>
+    <table>
+        <tr>
+            <td class="field-name">Fullname:</td>
+            <td>
+                <input type="text" name="fullname" />
+            </td>
+        </tr>
+        <tr>
+            <td class="field-name">Address:</td>
+            <td>
+                <input type="text" name="address" />
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2">
+                <button type="submit">Add</button>
+            </td>
+        </tr>
+    </table>
+</form>
+@Html.ActionLink("Back", "GetReaders")

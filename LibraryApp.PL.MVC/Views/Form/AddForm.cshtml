@@ -1,0 +1,23 @@
+﻿<form method="post" action="AddForm">
+    <h3>@ViewBag.Error</h3>
+    <table>
+        <tr>
+            <td class="field-name">Reader ID:</td>
+            <td>
+                <input type="text" name="readerId" />
+            </td>
+        </tr>
+        <tr>
+            <td class="field-name">Book ID:</td>
+            <td>
+                <input type="text" name="bookId" />
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2">
+                <button type="submit">Add</button>
+            </td>
+        </tr>
+    </table>
+</form>
+@Html.ActionLink("Back", "GetForms")
