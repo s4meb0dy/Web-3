@@ -4425,19 +4425,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\GameON\\.nuget\\packages\\": {}
+    "C:\\Users\\akost\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\пари\\Web-3\\LibraryApp\\LibraryApp.DAL\\LibraryApp.DAL.csproj",
+      "projectUniqueName": "C:\\Users\\akost\\Desktop\\LibraryApp\\LibraryApp.DAL\\LibraryApp.DAL.csproj",
       "projectName": "LibraryApp.DAL",
-      "projectPath": "E:\\пари\\Web-3\\LibraryApp\\LibraryApp.DAL\\LibraryApp.DAL.csproj",
-      "packagesPath": "C:\\Users\\GameON\\.nuget\\packages\\",
-      "outputPath": "E:\\пари\\Web-3\\LibraryApp\\LibraryApp.DAL\\obj\\",
+      "projectPath": "C:\\Users\\akost\\Desktop\\LibraryApp\\LibraryApp.DAL\\LibraryApp.DAL.csproj",
+      "packagesPath": "C:\\Users\\akost\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\akost\\Desktop\\LibraryApp\\LibraryApp.DAL\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "C:\\Users\\GameON\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\akost\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -4508,7 +4513,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
       }
     }
   }
