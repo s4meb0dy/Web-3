@@ -24,17 +24,17 @@ namespace LibraryApp.PL
         private static IHostBuilder CreateHostBuilder(string[] strings)
         {
             #region IF_CONSOLE_APP
-            // var configDirectory = Directory.GetParent(Directory.GetCurrentDirectory()).Parent.Parent.FullName;
-            //IConfigurationRoot configuration = new ConfigurationBuilder()
-            //                                       .SetBasePath(configDirectory)
-            //                                       .AddJsonFile("appsettings.json")
-            //                                        .Build();
-            //var connectionString = configuration.GetConnectionString("SqlServerConnectionString");
+            var configDirectory = Directory.GetParent(Directory.GetCurrentDirectory()).Parent.Parent.FullName;
+            IConfigurationRoot configuration = new ConfigurationBuilder()
+                                                    .SetBasePath(configDirectory)
+                                                    .AddJsonFile("appsettings.json")
+                                                    .Build();
+            var connectionString = configuration.GetConnectionString("SqlServerConnectionString");
 
             #endregion
 
             #region IF_APPLYING_MIGRATION
-            var connectionString = "Server=(localdb)\\mssqllocaldb;Database=mylibrary;Trusted_Connection=True;MultipleActiveResultSets=true";
+            //var connectionString = "Server=(localdb)\\mssqllocaldb;Database=mylibrary;Trusted_Connection=True;MultipleActiveResultSets=true";
             #endregion
 
             return Host.CreateDefaultBuilder()
