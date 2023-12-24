@@ -32,6 +32,7 @@ namespace LibraryApp.PL.MVC.Controllers
             return RedirectToAction("GetForms");
         }
 
+        [HttpDelete]
         public async Task<ActionResult> DeleteForm(int id)
         {
             await this.formService.DeleteFormAsync(id);

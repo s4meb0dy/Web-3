@@ -32,6 +32,7 @@ namespace LibraryApp.PL.MVC.Controllers
             return RedirectToAction("GetReaders");
         }
 
+        [HttpDelete]
         public async Task<ActionResult> DeleteReader(int id)
         {
             await this.readerService.DeleteReaderAsync(id);

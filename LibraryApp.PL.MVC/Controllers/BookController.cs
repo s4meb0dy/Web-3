@@ -36,6 +36,7 @@ namespace LibraryApp.PL.MVC.Controllers
             return RedirectToAction("GetBooks");
         }
 
+        [HttpDelete]
         public async Task<ActionResult> DeleteBook(int id)
         {
             await this.bookService.DeleteBookAsync(id);

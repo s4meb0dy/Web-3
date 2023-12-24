@@ -9,53 +9,53 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = LibraryApp.PL.MVC
 build_property.RootNamespace = LibraryApp.PL.MVC
-build_property.ProjectDir = C:\Users\GameON\Desktop\Web-3-2\LibraryApp.PL.MVC\
+build_property.ProjectDir = E:\Web-3\LibraryApp.PL.MVC\
 build_property.RazorLangVersion = 7.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\GameON\Desktop\Web-3-2\LibraryApp.PL.MVC
+build_property.MSBuildProjectDirectory = E:\Web-3\LibraryApp.PL.MVC
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/GameON/Desktop/Web-3-2/LibraryApp.PL.MVC/Views/Book/AddBook.cshtml]
+[E:/Web-3/LibraryApp.PL.MVC/Views/Book/AddBook.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQm9va1xBZGRCb29rLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/GameON/Desktop/Web-3-2/LibraryApp.PL.MVC/Views/Book/GetBooks.cshtml]
+[E:/Web-3/LibraryApp.PL.MVC/Views/Book/GetBooks.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQm9va1xHZXRCb29rcy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/GameON/Desktop/Web-3-2/LibraryApp.PL.MVC/Views/Form/AddForm.cshtml]
+[E:/Web-3/LibraryApp.PL.MVC/Views/Form/AddForm.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRm9ybVxBZGRGb3JtLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/GameON/Desktop/Web-3-2/LibraryApp.PL.MVC/Views/Form/GetForms.cshtml]
+[E:/Web-3/LibraryApp.PL.MVC/Views/Form/GetForms.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRm9ybVxHZXRGb3Jtcy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/GameON/Desktop/Web-3-2/LibraryApp.PL.MVC/Views/Reader/AddReader.cshtml]
+[E:/Web-3/LibraryApp.PL.MVC/Views/Reader/AddReader.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVhZGVyXEFkZFJlYWRlci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/GameON/Desktop/Web-3-2/LibraryApp.PL.MVC/Views/Reader/GetReaders.cshtml]
+[E:/Web-3/LibraryApp.PL.MVC/Views/Reader/GetReaders.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVhZGVyXEdldFJlYWRlcnMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/GameON/Desktop/Web-3-2/LibraryApp.PL.MVC/Views/Shared/Error.cshtml]
+[E:/Web-3/LibraryApp.PL.MVC/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/GameON/Desktop/Web-3-2/LibraryApp.PL.MVC/Views/Shared/_ValidationScriptsPartial.cshtml]
+[E:/Web-3/LibraryApp.PL.MVC/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/GameON/Desktop/Web-3-2/LibraryApp.PL.MVC/Views/_ViewImports.cshtml]
+[E:/Web-3/LibraryApp.PL.MVC/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/GameON/Desktop/Web-3-2/LibraryApp.PL.MVC/Views/_ViewStart.cshtml]
+[E:/Web-3/LibraryApp.PL.MVC/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/GameON/Desktop/Web-3-2/LibraryApp.PL.MVC/Views/Shared/_Layout.cshtml]
+[E:/Web-3/LibraryApp.PL.MVC/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-ifi7cq0z1z
