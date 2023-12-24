@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "6x6o24mPBZt1J3xWDPyZ+wI3V+U9nsiKsMUxQJcrXGM=",
+  "Source": "LibraryApp.PL.WebAPI",
+  "BasePath": "_content/LibraryApp.PL.WebAPI",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
